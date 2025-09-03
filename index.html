@@ -12,12 +12,13 @@
   <!-- Header -->
   <header class="site-header">
     <div class="logo">Diep Voetspore</div>
-    <nav>
+    <nav id="nav-menu">
       <a href="#">Home</a>
       <a href="#">Shop</a>
       <a href="#">About</a>
       <a href="#">Contact</a>
     </nav>
+    <div class="menu-toggle" onclick="toggleMenu()">☰</div>
   </header>
 
   <!-- Hero Banner -->
@@ -56,5 +57,10 @@
     <p>&copy; 2025 Diep Voetspore. All rights reserved.</p>
   </footer>
 
+  <script>
+    function toggleMenu() {
+      document.getElementById('nav-menu').classList.toggle('active');
+    }
+  </script>
 </body>
 </html>
