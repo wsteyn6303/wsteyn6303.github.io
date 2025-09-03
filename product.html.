@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Gold Necklace | Diep Voetspore</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Open+Sans&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="site-header">
+    <div class="logo">Diep Voetspore</div>
+    <nav id="nav-menu">
+      <a href="index.html">Home</a>
+      <a href="#">Shop</a>
+      <a href="#">About</a>
+      <a href="#">Contact</a>
+    </nav>
+    <div class="menu-toggle" onclick="toggleMenu()">☰</div>
+  </header>
+
+  <!-- Product Detail -->
+  <section class="product-detail">
+    <div class="product-image">
+      <img src="images/necklace.jpg" alt="Gold Necklace">
+    </div>
+    <div class="product-info">
+      <h1>Gold Necklace</h1>
+      <p class="price">R1,200</p>
+      <p class="description">
+        This elegant gold necklace is crafted with precision and designed to complement any outfit. Perfect for special occasions or everyday wear.
+      </p>
+      <a href="#" class="btn">Add to Cart</a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 Diep Voetspore. All rights reserved.</p>
+  </footer>
+
+  <script>
+    function toggleMenu() {
+      document.getElementById('nav-menu').classList.toggle('active');
+    }
+  </script>
+</body>
+</html>
