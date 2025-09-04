@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -38,4 +39,11 @@
     </div>
   </section>
 
+  <!-- Footer -->
+  <footer>
+    <p class="legal">© 2025 Diep Voetspore. All Rights Reserved.</p>
+  </footer>
+
+</body>
+</html>
   
