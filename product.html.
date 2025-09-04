@@ -3,9 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Gold Hoop Earrings | Diep Voetspore</title>
+  <title>Product | Diep Voetspore</title>
   <link rel="stylesheet" href="style.css">
-  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600&family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
 </head>
 <body>
 
@@ -15,70 +14,32 @@
     <nav>
       <ul class="main-nav">
         <li><a href="index.html">Home</a></li>
-        <li><a href="collections.html">Shop All</a></li>
-        <li><a href="#">Bundles</a></li>
-        <li><a href="#">Gifts</a></li>
+        <li><a href="collections.html">New Arrivals</a></li>
+        <li><a href="collections.html">Jewellery</a></li>
+        <li><a href="bundles.html">Bundles</a></li>
+        <li><a href="cart.html">Cart</a></li>
+        <li><a href="checkout.html">Checkout</a></li>
       </ul>
     </nav>
   </header>
 
-  <!-- Product Section -->
+  <!-- Product Content -->
   <section class="product-page">
-    <div class="product-container">
-      <!-- Product Image -->
-      <div class="product-image">
-        <img src="https://images.unsplash.com/photo-1516637090014-cb1ab0d08fc7" alt="Gold Hoop Earrings">
-      </div>
-
-      <!-- Product Details -->
-      <div class="product-details">
-        <h1>Gold Hoop Earrings</h1>
-        <p class="price">R450</p>
-        <p class="description">
-          Elevate your look with our Gold Hoop Earrings. A classic piece crafted from high-quality
-          gold-plated material, perfect for both casual and formal occasions.
-        </p>
-        <button class="btn">Add to Cart</button>
-        <p class="sku">SKU: DV-EAR-001</p>
-      </div>
+    <div class="product-gallery">
+      <img src="https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9" alt="Pendant Necklace">
     </div>
-  </section>
-
-  <!-- Related Products -->
-  <section>
-    <h2 class="section-header">You May Also Like</h2>
-    <div class="grid">
-      <div class="card">
-        <a href="product.html">
-          <img src="https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9" alt="Necklace">
-          <h3>Pendant Necklace</h3>
-          <p>R650</p>
-        </a>
-      </div>
-      <div class="card">
-        <a href="product.html">
-          <img src="https://images.unsplash.com/photo-1543294001-f7cd5d7fb516" alt="Rings">
-          <h3>Stacking Rings</h3>
-          <p>R550</p>
-        </a>
-      </div>
+    <div class="product-details">
+      <h1>Pendant Necklace</h1>
+      <p class="price">R650</p>
+      <p class="description">
+        A timeless pendant necklace crafted with precision, designed to complement any outfit.
+      </p>
+      <a href="cart.html" class="btn">Add to Cart</a>
     </div>
   </section>
 
   <!-- Footer -->
   <footer>
-    <div class="footer-links">
-      <div>
-        <h4>Shop</h4>
-        <a href="collections.html">All Jewellery</a>
-        <a href="#">Earrings</a>
-      </div>
-      <div>
-        <h4>Help</h4>
-        <a href="#">Contact</a>
-        <a href="#">Returns</a>
-      </div>
-    </div>
     <p class="legal">© 2025 Diep Voetspore. All Rights Reserved.</p>
   </footer>
 
