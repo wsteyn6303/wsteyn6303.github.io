@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Checkout | Diep Voetspore</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600&family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <div class="logo">Diep Voetspore</div>
+    <nav>
+      <ul class="main-nav">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="collections.html">Shop All</a></li>
+        <li><a href="cart.html">Cart</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Checkout Section -->
+  <section class="checkout-page">
+    <h1>Checkout</h1>
+
+    <form class="checkout-form">
+      <!-- Customer Info -->
+      <div class="checkout-column">
+        <h2>Customer Information</h2>
+        <label>Full Name</label>
+        <input type="text" placeholder="John Doe" required>
+
+        <label>Email</label>
+        <input type="email" placeholder="john@example.com" required>
+
+        <label>Phone</label>
+        <input type="tel" placeholder="+27 82 123 4567" required>
+
+        <h2>Shipping Address</h2>
+        <label>Street Address</label>
+        <input type="text" placeholder="123 Main Road" required>
+
+        <label>City</label>
+        <input type="text" placeholder="Cape Town" required>
+
+        <label>Postal Code</label>
+        <input type="text" placeholder="8001" required>
+
+        <label>Country</label>
+        <input type="text" value="South Africa" readonly>
+      </div>
+
+      <!-- Order Summary -->
+      <div class="checkout-column">
+        <h2>Order Summary</h2>
+        <div class="order-item">
+          <span>Gold Hoop Earrings</span>
+          <span>R450</span>
+        </div>
+        <div class="order-item">
+          <span>Pendant Necklace</span>
+          <span>R650</span>
+        </div>
+        <hr>
+        <p>Subtotal: <strong>R1100</strong></p>
+        <p>Shipping: <strong>R100</strong></p>
+        <p>Total: <strong>R1200</strong></p>
+
+        <h2>Payment</h2>
+        <label><input type="radio" name="payment" checked> Credit/Debit Card</label><br>
+        <label><input type="radio" name="payment"> EFT / Bank Transfer</label><br>
+        <label><input type="radio" name="payment"> Cash on Delivery</label>
+
+        <button type="submit" class="btn">Place Order</button>
+      </div>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p class="legal">© 2025 Diep Voetspore. All Rights Reserved.</p>
+  </footer>
+
+</body>
+</html>
