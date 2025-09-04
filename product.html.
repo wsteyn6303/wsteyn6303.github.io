@@ -12,15 +12,15 @@
   <header>
     <div class="logo">Diep Voetspore</div>
     <nav>
-      <ul class="main-nav">
-        <li><a href="index.html">Home</a></li>
-        <li><a href="collections.html">New Arrivals</a></li>
-        <li><a href="collections.html">Jewellery</a></li>
-        <li><a href="bundles.html">Bundles</a></li>
-        <li><a href="cart.html">Cart</a></li>
-        <li><a href="checkout.html">Checkout</a></li>
-      </ul>
-    </nav>
+  <ul class="main-nav">
+    <li><a href="index.html">Home</a></li>
+    <li><a href="collections.html">New Arrivals</a></li>
+    <li><a href="collections.html">Jewellery</a></li>
+    <li><a href="bundles.html">Bundles</a></li>
+    <li><a href="cart.html">Cart</a></li>
+    <li><a href="checkout.html">Checkout</a></li>
+  </ul>
+</nav>
   </header>
 
   <!-- Product Content -->
